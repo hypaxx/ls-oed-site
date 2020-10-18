@@ -285,7 +285,7 @@ li {
   font-size: 14px;
 }
 
-#message a {
+#message .button {
   display: block;
   text-align: center;
   background: #c9302c;
@@ -296,11 +296,11 @@ li {
   border-radius: 4px;
 }
 
-#message a:hover {
+#message .button:hover {
   background: #e9332c;
   transition: background 0.75s;
 }
 
-#message, #message a {
+#message, #message .button {
   box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
 }
