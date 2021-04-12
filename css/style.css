@@ -3,7 +3,7 @@ body {
   font-size: 14px;
   line-height: 1.42857143;
   color: #333;
-  background: #ECEFF1;
+  background-color: #ECEFF1;
 }
 
 body {
@@ -22,7 +22,7 @@ html {
 }
 
 .navbar-default {
-  background-color: #c9302c !important;
+  background-color: #0f213b !important;
 }
 
 nav, .navbar-default {
@@ -50,7 +50,7 @@ nav, .navbar-default {
 
 .navbar {
   position: relative;
-  min-height: 50px;
+  min-height: 70px;
   margin-bottom: 20px;
   border: 1px solid transparent;
 }
@@ -121,8 +121,8 @@ a {
 }
 
 .logoSmall {
-  width: 22px;
   display: inline-block !important;
+  margin-top: -8px;
 }
 
 img {
@@ -253,8 +253,9 @@ li {
   max-width: 400px;
   margin: 100px auto 16px;
   padding: 32px 24px;
-  border-radius: 3px;
+  border-radius: 15px;
   overflow: hidden;
+  border-left: solid 4px #00beae;
 }
 
 #message h2 {
@@ -267,7 +268,7 @@ li {
 #message h3 {
   font-size: 22px;
   font-weight: bold;
-  color: #c9302c;
+  color: #00beae;
   margin: 0 0 16px;
   text-align: center;
 }

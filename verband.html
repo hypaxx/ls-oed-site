@@ -3,7 +3,7 @@
 
 <head>
   <meta charset="utf-8">
-  <title>LST öffentlicher Dienste &raquo; 404</title>
+  <title>LST öffentlicher Dienste &raquo; Weiterleitung</title>
 
   <meta name="author" content="Hypax">
   <meta name="keywords" Nice="Leitstellen,Leitstellenspiel,Spiel,Ortenau,Deutschland">
@@ -12,6 +12,16 @@
   <link rel="stylesheet" href="css/style.css">
     <!-- Place your kit's code here -->
     <script src="https://kit.fontawesome.com/1ff7127a2f.js" crossorigin="anonymous"></script>
+    <script>
+      setInterval(function () {
+        var div = document.querySelector("#counter");
+        var count = div.textContent * 1 - 1;
+        div.textContent = count;
+        if (count <= 0) {
+          window.location.replace("https://www.leitstellenspiel.de/alliances/26266");
+        }
+      }, 1000);
+    </script>
 </head>
 
 <body>
@@ -28,8 +38,8 @@
 </div>
 <div id="message">
   <div class="overlay"></div>
-  <h3>Oh, hier fehlt wohl was!</h3>
-  <p>Was auch immer du versuchst aufzurufen, es existiert nicht.</p>
+  <h3>Du wirst in <div id="counter">5</div> Sekunden</h3>
+  <p>zum Verband weitergeleitet.</p>
 </div>
 </body>
 </html>
